@@ -1,27 +1,12 @@
 /* 
 
 	12,07,24
-	version 1.1
+	version 1.2
 	https://shikimori.one/%D1%89+%D0%B0+%D1%81+%D1%83+%D0%BA+%D1%83+%D1%88+%D1%83
 
 */
 
 @media{
-   @import url("https://css-club.web.app/css/history_types.css");
-  @supports (color: color-mix(in srgb, currentColor, black)) {
-  .b-user_history-line a.db-entry::before {
-    --user-history-type-name1: "アニメ";
-    --user-history-type-name2: "マンガ";
-    --user-history-type-name3: "ラノベ";
-    --user-history-type-width: auto;
-    content: var(--user-history-type-name);
-    padding: 0 3px;
-    margin: 0 5px 0 0;
-    background-color: color-mix(in srgb, currentColor 24%, Canvas);
-    border-radius: 5px;
-    font-weight: bold;
-  }
-}
   .l-page{
   	margin-top:57px;
     border-radius:57px;
@@ -46,7 +31,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-image:url("https://desu.shikimori.one/system/user_images/original/1209099/2316200.jpg")
+  background-image:url("https://desu.shikimori.one/system/user_images_h/original/0ce6e9e825689a4bb5e03609/74bde770deb459005a6262a281ab77dd425ba0f9e9258995b7280df21ba2f434.jpg")
 }
   
   .headline,
@@ -355,11 +340,13 @@
   }
   .profile-content .subheadline > a[href$="/favorites"] {
   	font-size: 0;
+    padding-right:0px;
   }
 	.profile-content .subheadline > a[href$="/favorites"]::after {
-   content: "Любимые девочки";
+   content: "Любимые девочки♡";
    vertical-align: top;
    font-size: 15px;
+   padding-right:0px;
   }
   .p-profiles .profile-head .c-brief header h1.aliases::after{
   	color:violet;
@@ -397,7 +384,7 @@
    text-shadow:1px 1px 3px violet;
   }
   ::selection, ::selection{
-   background:pink;
-   color:white;
+  	background:pink;
+    color:white;
   }
 }
