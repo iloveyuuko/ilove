@@ -1,7 +1,7 @@
 /* 
 
 	12,07,24
-	version 1.5
+	version 1.6
 	https://shikimori.one/%D1%89+%D0%B0+%D1%81+%D1%83+%D0%BA+%D1%83+%D1%88+%D1%83
 
 */
@@ -44,7 +44,7 @@
     box-shadow:5px 5px 5px violet;
     text-align:center;
     text-transform:none;
-    font-weight: 300;
+    font-weight: 700;
 	background-image:linear-gradient(90deg, rgba(227,127,227,0.3),rgba(127,27,127,0.7));
   }
   .avatar img{
@@ -56,7 +56,7 @@
   	--headline-color:#ffc0cb;
     --link-color:#9710d5;
     --link-hover-color:#cca3ff;
-    --link-active-color: #FFC0EA;
+    --link-active-color:#FFC0EA;
   }
   .l-top_menu-v2 {
     background: #343434;
@@ -121,6 +121,7 @@
   }
   .c-brief .profile-actions > a {
     color:violet;
+    text-shadow:1px 1px 5px aqua;
   }
   .b-stats_bar .stat_names .stat_name a {
     color:skyblue;
@@ -209,7 +210,7 @@
   }
   .b-spoiler_block > span{
     border-radius:100px 30px 100px 30px;
-	background-image:linear-gradient(90deg, rgba(227,127,227,0.5),rgba(127,27,127,0.8));
+	background-image:linear-gradient(90deg, rgba(140, 211, 227, 0.5),rgba(28, 205, 223, 0.9));
   }
   .p-profiles-show .about .item-edit::before, .p-profiles-show .about .item-edit::after{
     color:white;
@@ -227,12 +228,13 @@
     background-image:none;
   }
   .b-catalog_entry .cover .image-decor{
-  	border-radius:10px;
+  	border-radius: 10px 10px 0px 10px;
     box-shadow:3px 3px 5px purple;
+    border: 1px solid aqua;
     
   }
   .b-catalog_entry .cover .image-decor img{
-    border-radius:10px;
+    border-radius: 10px 10px 0px 10px;
   }
   .b-nothing_here{
   	color:aqua;
@@ -512,7 +514,7 @@
     border:1px skyblue solid;
   }
   .b-comments-notifier{
-  	border-radius:5px 50px 5px 50px;
+  	border-radius:28%;
     border:1px aqua solid;
   }
   body[data-locale="en"] .b-new_marker::before{
@@ -556,5 +558,79 @@
   }
   .tooltip-arrow{
   	visibility:hidden;
+  }
+  .l-top_menu-v2 .menu-icon[data-count]::after{
+  	border-color:aqua;
+    border-radius:3% 50% 3% 50%;
+    font-size:15px;
+  }
+  body,
+  label {
+  cursor: url("https://i.imgur.com/DyjufM3.png"), default !important;
+  }
+  *:before {
+    pointer-events: none;
+  }
+  a,
+hover,
+before,
+after,
+active,
+.popup li,
+.input input,
+.submenu
+.menu-search,
+.entry,
+.userbox,
+.cover,
+.title,
+.add-trigger,
+.remove-trigger,
+.trigger-arrow,
+.trigger,
+.text,
+.option,
+.edit,
+.watching,
+.rewatching,
+.close,
+.expand span,
+.plus,
+.b-tooltipped,
+input,
+.preview,
+.unpreview,
+.value,
+.div,
+.slide,
+.b-to-top,
+.leave,
+.invite,
+.upload,
+.invite span,
+.b-spoiler label,
+.b-poster,
+.off,
+.item-ignore,
+.item-reply,
+.b-comments-notifier,
+.comments-loader,
+.click-loader {
+  cursor: url("https://i.imgur.com/DyjufM3.png"), pointer !important;
+}
+  .b-anime_status_tag{
+  	border-radius:10% 10% 10% 10%;
+    box-shadow:3px 3px 5px violet;
+  }
+  .b-status-line{
+  	color:violet;
+  }
+  .p-user_rates-index .list-groups .summary.lines{
+  	text-shadow:1px 1px 3px violet;
+  }
+  .p-profiles-edit .account .avatar-edit img{
+    border-radius:50%;
+    border:solid 1px skyblue;
+    box-shadow:3px 3px 10px aqua;
   }
 }
