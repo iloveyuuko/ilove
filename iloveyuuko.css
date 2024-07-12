@@ -1,10 +1,11 @@
 /* 
 
-	12,07,24
-	version 1.6
+	13,07,24
+	version 1.7
 	https://shikimori.one/%D1%89+%D0%B0+%D1%81+%D1%83+%D0%BA+%D1%83+%D1%88+%D1%83
 
 */
+
 
 @media{
   .l-page{
@@ -46,6 +47,7 @@
     text-transform:none;
     font-weight: 700;
 	background-image:linear-gradient(90deg, rgba(227,127,227,0.3),rgba(127,27,127,0.7));
+    line-height:28px;
   }
   .avatar img{
   	border-radius:50%;
@@ -327,7 +329,8 @@
   	border-radius:10px;
   }
   .ProseMirror{
-  	border-radius:10px
+  	border-radius:10px;
+    border:1px solid aqua;
   }
   h2.subheadline{
     text-align:left;
@@ -632,5 +635,62 @@ input,
     border-radius:50%;
     border:solid 1px skyblue;
     box-shadow:3px 3px 10px aqua;
+  }
+  .b-hot_topics-v2{
+  	border-radius:10px;
+    border-color:aqua;
+  }
+  .b-input input[type="number"]{
+  	border-radius:10px;
+  }
+  .p-profiles-show .activity .line .bar::after {
+  content: attr(title); /* используется текст из атрибута элемента */
+  position: absolute; /* настройка положения */
+  inset: 0 0 auto auto;
+  opacity: 0; /* по умолчанию не показывается */
+}
+
+.p-profiles-show .activity .line:last-child .bar::after {
+  opacity: 1; /* показывается только данные последнего столбика */
+  color:skyblue;
+}
+
+/* сброс настроек по умолчанию для позиционирования данных */
+.p-profiles-show .activity .line .bar-container .value {
+  position: static;
+}
+.p-profiles-show .activity .line .bar-container,
+.p-profiles-show .activity .line .bar-container .bar {
+  position: static;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+  .p-profiles .profile-head .c-brief header .notice span::after{
+  	color:violet;
+    content:"/♡/";
+  }
+  .p-profiles header.head .misc{
+  	color:skyblue;
+  }
+  .b-tooltipped.dotted{
+  	border-bottom:1px dashed skyblue;
+  }
+  .p-profiles-show .lifetime .title .value{
+  	text-shadow:1px 1px 3px violet;
+  }
+}
+@media (min-width: 1024px) {
+  .p-profiles-show .lifetime .title .value::after{
+  	content:attr(original-title) ".";
+    font-size:11px;
+    color:skyblue;
+    text-shadow:1px 1px 3px violet;
+  }
+  .b-tooltipped.dotted{
+  	border-bottom:none;
+  }
+  .p-profiles-show .lifetime .title .value{
+  	font-size:0px;
   }
 }
