@@ -199,7 +199,7 @@
   }
   .b-spoiler_block > span{
     border-radius:100px 30px 100px 30px;
-	background-image: linear-gradient(90deg, rgba(146, 236, 240, 0.5),rgba(13, 186, 215, 1));
+	background-image:linear-gradient(90deg, rgba(227,127,227,0.5),rgba(127,27,127,0.8));
   }
   .p-profiles-show .about .item-edit::before, .p-profiles-show .about .item-edit::after{
     color:white;
@@ -267,7 +267,7 @@
     border:1px dashed skyblue;
   }
   .b-spoiler_block > span{
-  	box-shadow:3px 3px 5px skyblue;
+  	box-shadow:3px 3px 5px violet;
   }
   .b-shiki_editor-v2 aside.markers .b-summary_marker::before, .b-shiki_editor-v2 aside.markers .b-offtopic_marker::before{
   	border-radius:100px 30px 100px 30px;
