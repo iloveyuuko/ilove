@@ -1,7 +1,7 @@
 /* 
 
 	12,07,24
-	version 1.4
+	version 1.5
 	https://shikimori.one/%D1%89+%D0%B0+%D1%81+%D1%83+%D0%BA+%D1%83+%D1%88+%D1%83
 
 */
@@ -114,7 +114,7 @@
   }
   header.head h1{
   	color:violet;
-    text-shadow:2px 2px 5px skyblue;
+    text-shadow:2px 2px 5px aqua;
   }
   .p-profiles .profile-head .c-brief header .notice {
   	color:violet;
@@ -150,7 +150,8 @@
     color:violet;
   }
 .p-profiles-show .lifetime .times .time.checked::before {
-    color:pink;
+    color:aqua;
+    opacity:0.5;
   }
   .p-profiles-show .profile-content .activity .title {
     color:violet;
@@ -175,7 +176,7 @@
   }
   .l-top_menu-v2 {
   	background-image:linear-gradient(90deg,rgba(227,127,227,0.5),rgba(127,27,127,0.8));
-    box-shadow:0px 0px 20px 10px skyblue;
+    box-shadow:0px 0px 20px 10px violet;
     background-color:rgba(227,27,227,0.5);
   }
   .l-top_menu-v2 .submenu{background-image:linear-gradient(90deg, rgba(227,127,227,0.5),rgba(127,27,127,0.8));
@@ -192,10 +193,19 @@
   .l-top_menu-v2 .menu-dropdown>span a:hover {
   background-color:rgba(238,130,238,0.2);
   }
+  .b-form input[type="submit"]:hover{
+    background-color:violet;
+    border:1px solid aqua;
+    box-shadow:none;
+  }
   .b-form input[type="submit"]{
-  	border-radius:100px 30px 100px 30px;
-    background-color:skyblue;
-    box-shadow:3px 3px 5px skyblue;
+    box-shadow:3px 3px 5px purple;
+    background-color:violet;
+    border-left:1px solid aqua;
+    border-top:1px solid aqua;
+    border-right:none;
+    border-bottom:none;
+    border-radius:100px 30px 100px 30px;
   }
   .b-spoiler_block > span{
     border-radius:100px 30px 100px 30px;
@@ -225,7 +235,7 @@
     border-radius:10px;
   }
   .b-nothing_here{
-  	color:skyblue;
+  	color:aqua;
   }
   .b-input select{
   	border-radius:10px;
@@ -295,7 +305,11 @@
   }
   .b-link_button.dark:hover{
     background-color:skyblue;
-    border:solid 1px violet;
+    box-shadow:5px 5px 10px violet;
+    border-left:solid 1px violet;
+    border-top:solid 1px violet;
+    border-bottom:none;
+    border-right:none;
   }
   .b-user_history-line .destroy::before{
   	color:pink;
@@ -338,7 +352,7 @@
     padding-right:0px;
   }
 	.profile-content .subheadline > a[href$="/favorites"]::after {
-   content: "Любимые девочки♡";
+   content: var(--profile-favorites-title, "Любимые девочки♡");
    vertical-align: top;
    font-size: 15px;
    padding-right:0px;
@@ -520,7 +534,7 @@
   }
   .tipsy-arrow{
   	display:none;
-  }
+  }f
   .b-button{
   	border-radius:3px 30px 3px 30px;
     background-color:skyblue;
@@ -531,5 +545,16 @@
   }
   .p-profiles .profile-head .c-brief .avatar img{
   	box-shadow:3px 3px 10px aqua;
+  }
+  .b-message > .inner header img{
+  	border-radius:50%;
+    border:solid 1px skyblue;
+    box-shadow:3px 3px 10px purple;
+  }
+  .tooltip-inner{
+  	border:1px solid aqua;
+  }
+  .tooltip-arrow{
+  	visibility:hidden;
   }
 }
