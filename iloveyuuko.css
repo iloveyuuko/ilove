@@ -1,14 +1,13 @@
 /* 
 
-	13,07,24
-	version 1.8
+	07,24
+	version 1.9
 	https://shikimori.one/%D1%89+%D0%B0+%D1%81+%D1%83+%D0%BA+%D1%83+%D1%88+%D1%83
 
 */
 
 
 @media{
-  body{color:purple;}
   .l-page{
   	margin-top:57px;
     border-radius:57px;
@@ -52,7 +51,6 @@
   }
   .avatar img{
   	border-radius:50%;
-    border:solid 1px skyblue;
     box-shadow:3px 3px 10px purple;
   }
   html[data-color-mode="light"]{
@@ -199,8 +197,7 @@
   }
   .b-form input[type="submit"]:hover{
     background-color:violet;
-    border:1px solid aqua;
-    box-shadow:none;
+    box-shadow:3px 3px 5px aqua;
   }
   .b-form input[type="submit"]{
     box-shadow:3px 3px 5px purple;
@@ -212,7 +209,10 @@
     border-radius:100px 30px 100px 30px;
   }
   .b-spoiler_block > span{
-    border-radius:100px 30px 100px 30px;
+  	border-radius:100px 30px 100px 30px;
+    background-image: linear-gradient(90deg, rgba(200, 140, 227, 0.5),rgba(221, 24, 227, 0.9));
+  }
+  .b-spoiler_block > span:hover{
 	background-image:linear-gradient(90deg, rgba(140, 211, 227, 0.5),rgba(28, 205, 223, 0.9));
   }
   .p-profiles-show .about .item-edit::before, .p-profiles-show .about .item-edit::after{
@@ -404,13 +404,14 @@
   .legend{
   	border-top:solid 1px skyblue;
     border-bottom:solid 1px skyblue;
+    text-align:center;
   }
   .toastify.notice{
   	border-radius:10px 70px 10px 70px;
     background:skyblue;
   }
   .b-rate .stars.score{
-  	color:aqua;
+  	color:violet;
   }
   .l-top_menu-v2.is-search-mobile .global-search{
   	background:purple;
@@ -431,7 +432,7 @@
   	filter:drop-shadow(20px 20px 1px aqua);
   }
   .b-rate .stars.hover{
-  	color:violet;
+  	color:aqua;
   }
   .b-link_button.mini{
   	border-radius:70px 10px 70px 10px;
@@ -564,6 +565,7 @@
   }
   .tooltip-inner{
   	border:1px solid aqua;
+    box-shadow:0px 0px 3px 3px violet;
   }
   .tooltip-arrow{
   	visibility:hidden;
@@ -714,6 +716,31 @@ input,
   }
   .b-comment > .inner header img:hover{
   	box-shadow: 3px 3px 5px aqua;
+  }
+  .b-shiki_editor .body .editor textarea{
+  	border:1px solid aqua;
+    border-radius:20px;
+  }
+  .b-button{
+  	border-radius:10px 70px 10px 70px;
+    box-shadow:3px 3px 5px purple;
+    background-color:violet;
+    border-left:1px solid aqua;
+    border-top:1px solid aqua;
+    border-right:none;
+    border-bottom:none;
+  }
+  .b-button:hover{
+  	background-color:violet;
+    box-shadow:3px 3px 5px aqua;
+  }
+  .p-profiles-favorites .cc-favourites.sortable .b-catalog_entry::before{
+  	color:pink;
+    -webkit-box-shadow: 0 0 0 1px violet;
+	box-shadow: 0 0 0 1px violet;
+  }
+  body{
+    background-image:none;
   }
 }
 @media (min-width: 1024px) {
