@@ -1,7 +1,7 @@
 /* 
 
 	07,24
-	version 1.9
+	version 2.0
 	https://shikimori.one/%D1%89+%D0%B0+%D1%81+%D1%83+%D0%BA+%D1%83+%D1%88+%D1%83
 
 */
@@ -233,7 +233,6 @@
   .b-catalog_entry .cover .image-decor{
   	border-radius: 10px 10px 0px 10px;
     box-shadow:3px 3px 5px purple;
-    border: 1px solid aqua;
   }
   .b-catalog_entry .cover .image-decor:hover{
   	box-shadow:3px 3px 5px aqua;
@@ -741,6 +740,14 @@ input,
   }
   body{
     background-image:none;
+  }
+  .b-club .logo{
+  	border-radius:50%;
+    box-shadow:3px 3px 10px purple;
+  }
+  .b-club .logo:hover{
+  	border-radius:50%;
+    box-shadow:3px 3px 10px aqua;
   }
 }
 @media (min-width: 1024px) {
