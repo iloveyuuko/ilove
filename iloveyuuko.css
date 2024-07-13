@@ -1,12 +1,26 @@
 /* 
 
 	07,24
-	version 2.1
+	version 2.2
 	https://shikimori.one/%D1%89+%D0%B0+%D1%81+%D1%83+%D0%BA+%D1%83+%D1%88+%D1%83
 
 */
 
 
+@media (min-width: 1024px){
+  .p-profiles-show .lifetime .title .value::after{
+  	content:attr(original-title) ".";
+    font-size:11px;
+    color:skyblue;
+    text-shadow:1px 1px 3px violet;
+  }
+  .b-tooltipped.dotted{
+  	border-bottom:none;
+  }
+  .p-profiles-show .lifetime .title .value{
+  	font-size:0px;
+  }
+}
 @media{
   .l-page{
   	margin-top:57px;
@@ -819,19 +833,5 @@ input,
     color: aqua;
     transition:0.3s;
     box-shadow:0px 0px 3px 3px aqua;
-  }
-}
-@media (min-width: 1024px) {
-  .p-profiles-show .lifetime .title .value::after{
-  	content:attr(original-title) ".";
-    font-size:11px;
-    color:skyblue;
-    text-shadow:1px 1px 3px violet;
-  }
-  .b-tooltipped.dotted{
-  	border-bottom:none;
-  }
-  .p-profiles-show .lifetime .title .value{
-  	font-size:0px;
   }
 }
