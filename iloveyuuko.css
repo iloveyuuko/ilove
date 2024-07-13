@@ -21,13 +21,14 @@
   	font-size:0px;
   }
 }
+@media{
 .profile-content .subheadline > a[href$="/favorites"]::after {
    content: var(--profile-favorites-title, "Любимые девочки♡");
    vertical-align: top;
    font-size: 15px;
    padding-right:0px;
   }
-
+}
   .l-page{
   	margin-top:57px;
     border-radius:57px;
