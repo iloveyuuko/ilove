@@ -1,8 +1,3 @@
-/* 
-https://shikimori.one/%D1%89+%D0%B0+%D1%81+%D1%83+%D0%BA+%D1%83+%D1%88+%D1%83
-*/
-
-
 /* cyrillic */
 @font-face {
   font-family: 'Caveat';
@@ -1563,22 +1558,6 @@ input{
   border:1px solid aqua;
   border-bottom:none;
   border-right:none;
-}
-.p-profiles .profile-head .c-history .entry .title{
-  text-overflow: clip;
-  animation: love 12s linear infinite;
-  animation-delay: 3s;
-}
-@keyframes love{
-  25% {
-  text-indent: -80em;
-  }
-  25% {
-  text-indent: 25em;
-  }
-  50% {
-  text-indent: 0em;
-  }
 }
 .b-critique-topic.b-topic-preview > .inner .critique-entry_cover img{
 	border-radius:5%;
