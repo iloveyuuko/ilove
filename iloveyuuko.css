@@ -1,3 +1,8 @@
+/* 
+https://shikimori.one/%D1%89+%D0%B0+%D1%81+%D1%83+%D0%BA+%D1%83+%D1%88+%D1%83
+*/
+
+
 /* cyrillic */
 @font-face {
   font-family: 'Caveat';
@@ -587,6 +592,7 @@
   }
   .p-profiles .profile-head .c-brief .avatar img{
   	box-shadow:3px 3px 10px aqua;
+    border-radius:9%;
   }
   .b-message > .inner header img{
   	border-radius:50%;
@@ -993,7 +999,7 @@ input,
     		  0 -2px 2px pink;
 }
 header.head h1{
-	font-family: 'Caveat', monospace;
+	font-family: 'Caveat';
 }
 .b-feedback > .hover-activator{
 	display:none;
@@ -1029,7 +1035,7 @@ header.head h1{
 	color:aqua;
 }
 .l-footer .links:after{
-	content:"v2,9 07,24 ♡ by щ а с у к у ш у";
+	content:"v3.0 07,24 ♡ by щ а с у к у ш у";
   	color:lightpink;
   	opacity:0.7;
   	font-family: 'Caveat', monospace;
@@ -1561,4 +1567,14 @@ input{
 }
 .b-critique-topic.b-topic-preview > .inner .critique-entry_cover img{
 	border-radius:5%;
+}
+.cc-favourites {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.b-link_button.active, .b-link_button.active:hover, .b-link_button.active:active{
+	background-color:violet;
+  	border:1px solid skyblue;
 }
