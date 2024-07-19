@@ -818,6 +818,7 @@ input,
 	background:violet;
 	color:purple;
 	opacity:1;
+    border:1px dashed skyblue;
   }
   .p-profiles .profile-head .c-info .c-additionals div a{
 	text-align: center;
@@ -1034,7 +1035,7 @@ header.head h1{
 	color:aqua;
 }
 .l-footer .links:after{
-	content:"v3.0 07,24 ♡ by щ а с у к у ш у";
+	content:"v3.1 07,24 ♡ by щ а с у к у ш у";
   	color:lightpink;
   	opacity:0.7;
   	font-family: 'Caveat', monospace;
@@ -1520,12 +1521,12 @@ div.history .b-block_list li .tooltip-inner a:active,
 .b-tag[href]:hover{
   	background:rgba(127,27,127,0.3);
 }
-.p-profiles .profile-head .c-mobile-actions a::after, .p-profiles .profile-head .c-mobile-actions span::after{
+/*.p-profiles .profile-head .c-mobile-actions a::after, .p-profiles .profile-head .c-mobile-actions span::after{
 	color:#14b8b8;
   	content:"/♡/";
   	padding-left:3px;
   	padding-right:3px;
-}
+}*/
 .b-topic > .inner header img{
 	border-radius:20%;
   	box-shadow:3px 3px 3px violet;
@@ -1552,6 +1553,9 @@ input{
 .b-input input{
 	border:1px solid aqua;
 }
+.b-input input:hover{
+	border:1px solid violet;
+}
 .b-button.blue{
 	background-color:violet;
   border:1px solid aqua;
@@ -1576,4 +1580,104 @@ input{
 .b-link_button.active, .b-link_button.active:hover, .b-link_button.active:active{
 	background-color:violet;
   	border:1px solid skyblue;
+}
+.p-profiles .profile-head .c-history .entry:hover{
+  background-color: rgba(127,255,255,0.3);
+  color:white
+  border-radius: 2%;
+}
+.b-to-top .slide::before{
+	background:aqua;
+}
+.b-height_shortener .expand span {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: top;
+  position: relative;
+  padding: 0 8px;
+  margin: 0 8px;
+  background-color:violet;
+  border:none;
+  border-radius: 24px;
+  color:purple;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+  opacity: 0.5;
+  z-index: 3;
+  box-shadow:0px 0px 27px aqua;
+}
+.b-height_shortener .expand span:hover{
+  background-color:aqua;
+  opacity:0.8;
+  box-shadow:0px 0px 27px violet;
+}
+.b-height_shortener .expand::after{
+	display:none;
+}
+.b-comment{
+	border-top:1px dashed aqua;
+}
+.l-top_menu-v2 .submenu > a:hover{
+	background-color:purple;
+  box-shadow:0px 0px 10px violet;
+}
+.p-profiles .profile-head .c-history .entry{
+	border-color:aqua;
+}
+.b-options-floated{
+	color:white;
+}
+.b-input select{
+	border:1px solid aqua;
+}
+.b-input select:hover{
+	border:1px solid violet;
+}
+.b-comment > .inner .name-date a.name{
+	font-family:'Caveat';
+}
+.p-profiles .profile-head .c-brief header .notice{
+	font-family:'Caveat';
+}
+.b-comments .comments-collapser{
+	padding: 0 8px;
+	margin: 0 8px;
+	background-color: violet;
+	border: none;
+	border-radius: 24px;
+	color: purple;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 15px;
+	opacity: 0.5;
+	z-index: 3;
+	box-shadow: 0px 0px 27px aqua;
+  	margin-top:9px;
+}
+.b-comments .comments-collapser:hover{
+	box-shadow: 0px 0px 27px violet;
+  	background-color: aqua;
+  	opacity:0.8;
+}
+.p-profiles .profile-head .c-mobile-actions a{
+	padding: 0 8px;
+	margin: 0 3px;
+	background-color: violet;
+	border: none;
+	border-radius: 24px;
+	color: purple;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 19px;
+	opacity: 0.5;
+	z-index: 3;
+}
+.p-profiles .profile-head .c-mobile-actions a::after, .p-profiles .profile-head .c-mobile-actions span::after{
+  	display:none;
+}
+.p-profiles .profile-head .c-mobile-actions a:hover{
+	box-shadow: 0px 0px 27px violet;
+  	background-color: aqua;
+  	opacity:0.8;
 }
