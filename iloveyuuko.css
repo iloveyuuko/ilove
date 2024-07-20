@@ -2,7 +2,6 @@
 https://shikimori.one/%D1%89+%D0%B0+%D1%81+%D1%83+%D0%BA+%D1%83+%D1%88+%D1%83
 */
 
-
 /* cyrillic */
 @font-face {
   font-family: 'Caveat';
@@ -76,15 +75,13 @@ https://shikimori.one/%D1%89+%D0%B0+%D1%81+%D1%83+%D0%BA+%D1%83+%D1%88+%D1%83
   .midheadline,
   .subheadline{
     border-radius:10px 70px 10px 70px;
-    border-left:solid 1px aqua;
-    border-top:solid 1px aqua;
-    color:white;
-    box-shadow:5px 5px 5px violet;
+    color:purple;
     text-align:center;
     text-transform:none;
     font-weight: 700;
-	background-image:linear-gradient(90deg, rgba(227,127,227,0.3),rgba(127,27,127,0.7));
     line-height:28px;
+    background-color:rgba(227,27,227,0.37);
+    border-left:none;
   }
   .avatar img{
   	border-radius:50%;
@@ -160,10 +157,6 @@ https://shikimori.one/%D1%89+%D0%B0+%D1%81+%D1%83+%D0%BA+%D1%83+%D1%88+%D1%83
   }
   .p-profiles .profile-head .c-brief header .notice {
   	color:violet;
-  }
-  .c-brief .profile-actions > a {
-    color:violet;
-    text-shadow:1px 1px 5px aqua;
   }
   .b-stats_bar .stat_names .stat_name a {
     color:skyblue;
@@ -824,7 +817,7 @@ input,
 	text-align: center;
 	line-height: 17px;
 	font-weight: bold;
-    color:white;
+    color:purple;
   }
   .p-profiles .profile-head .c-info .c-additionals div a:hover{
     color: purple;
@@ -846,14 +839,9 @@ input,
 	font-weight: bold;
 	border-radius: 50px 5px 50px 5px;
 	background: violet;
-	color: white;
-	opacity:1;
-        text-shadow:2px 2px 2px aqua, 
-    		  0 2px 2px aqua, 
-    		  -2px 0 2px aqua, 
-    		  0 -2px 2px aqua;
+	color: purple;
     transition:0.3s;
-    box-shadow: 3px 3px 3px #14b8b8;
+    opacity:0.5;
   }
   .p-profiles .profile-head .c-info .c-additionals div:hover{
   	background: aqua;
@@ -912,15 +900,13 @@ input,
 }
 .b-reviews_navigation .navigation-node-all{
 	border-radius:70px 10px 70px 10px;
-    border-left:solid 1px aqua;
-    border-top:solid 1px aqua;
-    color:white;
-    box-shadow:5px 5px 5px violet;
+    color:purple;
     text-align:center;
     text-transform:none;
     font-weight: 700;
-	background-image:linear-gradient(90deg, rgba(227,127,227,0.3),rgba(127,27,127,0.7));
     line-height:28px;
+  	background-color:rgba(227,27,227,0.37);
+  	border-left:none;
 }
 .b-achievement .c-image .inner a .border{
 	border:none;
@@ -1035,7 +1021,7 @@ header.head h1{
 	color:aqua;
 }
 .l-footer .links:after{
-	content:"v3.1 07,24 ♡ by щ а с у к у ш у";
+	content:"v3.2 07,24 ♡ by щ а с у к у ш у";
   	color:lightpink;
   	opacity:0.7;
   	font-family: 'Caveat', monospace;
@@ -1687,4 +1673,44 @@ input{
 	box-shadow: 0px 0px 27px violet;
   	background-color: aqua;
   	opacity:0.8;
+}
+#profiles_edit .headline,#profiles_edit .midheadline,#profiles_edit .subheadline,
+.p-db_entries-show .cc-related-authors > .c-column .subheadline:nth-child(2){
+      text-align:left !important;
+}
+.subheadline-input:focus{
+	border-color:purple;
+}
+.subheadline-input:hover{
+	border-color:violet;
+}
+.subheadline-input{
+	border:1px solid aqua;
+}
+.b-options-floated.count{
+	color:white;
+}
+.headline > a, .midheadline > a, .subheadline > a{
+	padding-right:none;
+}
+.b-stats_bar .stat_names .stat_name::after{
+	visibility:hidden;
+}
+.c-brief .profile-actions > a{
+	color: #d06bf4;
+	padding: 0 8px;
+	margin: 0 3px;
+	margin-bottom: 0px;
+	background-color: rgba(227,27,227,0.3);
+	border: none;
+	border-radius: 24px;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 19px;
+	z-index: 3;
+	display: inline-block;
+  	margin-top:5.27px
+}
+.c-brief .profile-actions > a:hover{
+  	color: #d06bf4;
 }
