@@ -1709,3 +1709,6 @@ input{
 .c-brief .profile-actions > a:hover{
   	color: #d06bf4;
 }
+.p-profiles header.head .misc{
+	font-family:'Caveat';
+}
