@@ -855,7 +855,7 @@ input,
   	display:none;
 }
 .b-options-floated a, .b-options-floated .link:after{
-	background:aqua;
+	background:violet;
   	color:purple;
     text-shadow:2px 2px 2px white, 
     		  0 2px 2px white, 
@@ -866,13 +866,12 @@ input,
   margin-right:2px;
   padding-left:8px;
   padding-right:8px;
-  border:1px solid purple;
   margin-bottom:5px;
-  box-shadow: 3px 3px 3px #14b8b8;
+  box-shadow: 3px 3px 3px purple;
 }
 .b-options-floated .selected{
-	background:violet;
-  color:white;
+	background:aqua;
+  color:purple;
     text-shadow:2px 2px 2px white, 
     		  0 2px 2px white, 
     		  -2px 0 2px white, 
@@ -881,9 +880,8 @@ input,
   margin-right:2px;
   padding-left:8px;
   padding-right:8px;
-  border:1px solid purple;
   margin-bottom:5px;
-  box-shadow: 3px 3px 3px #14b8b8;
+  box-shadow: 3px 3px 3px purple;
   border-radius: 3px 30px 3px 30px;
 }
 .b-catalog_entry.planned .user_rates-minified .image-decor::before, .b-catalog_entry.watching .user_rates-minified .image-decor::before, .b-catalog_entry.completed .user_rates-minified .image-decor::before, .b-catalog_entry.rewatching .user_rates-minified .image-decor::before, .b-catalog_entry.on_hold .user_rates-minified .image-decor::before, .b-catalog_entry.dropped .user_rates-minified .image-decor::before{
@@ -1018,7 +1016,7 @@ header.head h1{
 	color:aqua;
 }
 .l-footer .links:after{
-	content:"v3.2 07,24 ♡ by щ а с у к у ш у";
+	content:"v3.3 07,24 ♡ by щ а с у к у ш у";
   	color:lightpink;
   	opacity:0.7;
   	font-family: 'Caveat', monospace;
@@ -1711,4 +1709,30 @@ input{
 }
 .p-profiles header.head .misc{
 	font-family:'Caveat';
+}
+.b-to-top .slide::before{
+	background:rgba(27,255,255,0.3);
+}
+.b-to-top.active .arrow::before{
+	color:violet;
+}
+.b-list_switchers .switcher.posters::before {
+	color:white;
+}
+.b-options-floated .action{
+	color: #d06bf4;
+	padding: 0 8px;
+	margin: 0 3px;
+	background-color: rgba(227,27,227,0.5);
+	border: none;
+	border-radius: 24px;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 19px;
+	z-index: 3;
+	display: inline-block;
+  	color:white;
+}
+.b-options-floated .action:hover{
+	box-shadow:0px 0px 5px purple;
 }
